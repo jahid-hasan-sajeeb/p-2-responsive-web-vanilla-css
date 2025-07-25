@@ -36,4 +36,114 @@
     color: rgba(0, 0, 0, 0.5);
 }
 
+.product-container{
+    margin-top: 150px;
+}
+
+.title{
+    font-family: noto serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(233, 90, 8);
+    text-align: center;
+    margin: 0px;
+}
+
+.text{
+    font-size: 16px;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 10px;
+    color:rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.product-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;   
+}
+
+.product{
+    width: 270px;
+}
+
+.product-image{
+    width: 270px;
+    height: 320px;
+}
+
+.product-title{
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+
+.product-price{
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+}
+
+.product-button{
+    width: 100%;
+    background-color: rgb(233, 90, 8);
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 12px 0px;
+}
+
+.plants-lover{
+    display: flex;
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+}
+
+.lover-title{
+    font-family: noto serif;
+    font-size: 50px;
+    text-align: left;
+}
+
+.lover-text-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.lover-text{
+    width:300px;
+    text-align: left;
+    color:rgba(0, 0, 0, 0.5);
+}
+
+.news-letter{
+    margin-top:180px;
+}
+
+.newsletter-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 20px;
+}
+
+.newsletter-left{
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+}
+
+.news-img{
+    border-radius: 10px;
+}
+
 
