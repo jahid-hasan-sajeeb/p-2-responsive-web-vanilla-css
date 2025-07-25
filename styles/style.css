@@ -1,0 +1,39 @@
+.body{
+    margin: 20px 200px;
+    font-family: Inter;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-nav{
+    display: flex;
+    gap: 50px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.banner-title{
+    font-family: noto serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: rgb(233, 90, 8);
+    line-height: 65px;
+}
+
+.banner-text{
+    width: 50%;
+    margin-top: -20px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
