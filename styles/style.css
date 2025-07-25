@@ -107,8 +107,19 @@
     justify-content: center;
     align-items: center;
     gap: 80px;
-
 }
+
+.plants-image-container {
+  position: relative;
+}
+
+.trusted-badge {
+  position: absolute;
+  top: -15%; 
+  left: 80%;   
+  width: 200px;
+}
+
 
 .lover-title {
     font-family: noto serif;
@@ -324,6 +335,10 @@
     flex-direction: column;
     margin-top: 100px;
     gap: 20px;
+}
+
+.trusted-badge{
+    display: none;
 }
 
 .plants-image{
